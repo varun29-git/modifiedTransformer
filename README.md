@@ -110,3 +110,13 @@ This project prioritizes architectural clarity at a small scale, with the goal
 of understanding how modern transformer design choices affect learning dynamics
 and generation behavior.
 
+## Papers & References
+
+This implementation is guided by several key research papers that have shaped modern Transformer architectures:
+
+- **Attention Is All You Need** (Vaswani et al., 2017) - Foundation of the original Transformer architecture. [[arXiv](https://arxiv.org/abs/1706.03762)]
+- **Root Mean Square Layer Normalization** (Zhang & Sennrich, 2019) - Introduces RMSNorm for improved training stability and computational efficiency compared to LayerNorm. [[arXiv](https://arxiv.org/abs/1910.07467)]
+- **RoFormer: Enhanced Transformer with Rotary Position Embedding** (Su et al., 2021) - Proposes RoPE to effectively encode relative positional information and improve length extrapolation. [[arXiv](https://arxiv.org/abs/2104.09864)]
+- **GLU Variants Improve Transformer** (Shazeer, 2020) - Explores variants like SiLU (Swish) in the feed-forward network to improve model performance. [[arXiv](https://arxiv.org/abs/2002.05202)]
+- **LLaMA: Open and Efficient Foundation Language Models** (Touvron et al., 2023) - Reference for integrating Pre-Norm, RMSNorm, and RoPE in state-of-the-art decoder-only models. [[arXiv](https://arxiv.org/abs/2302.13971)]
+
